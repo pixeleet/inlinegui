@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://webwrite.github.io/inlinegui/"
+			url: "http://localhost:9779/"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [

@@ -13,8 +13,10 @@ extractData = (response) ->
 	return data
 extractSyncOpts = (args) ->
 	# Extract sync arguments
+	console.log 'sync opts', args, args.length
 	if args.length is 3
-		opts = args[2] or {}
+		#opts = args[2] or {}
+		opts = args[1] or {}
 		opts.method = args[0]
 	else
 		opts = args[0]
